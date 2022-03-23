@@ -1,0 +1,531 @@
+@media (min-width: 414px) {
+
+    /* ABOUT */
+
+    #homepage #about .collapsible {
+        height: 580px;
+    }
+
+    #homepage #about .collapsed {
+        height: 1515px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .mobile-px {
+        --mobile-padding-x: 0.75rem;
+    }
+
+    .container {
+        width: 640px;
+    }
+
+    /* HEADER */
+
+    header {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .underline a:hover {
+        color: var(--secondary-color);
+    }
+
+    /* JUMBOTRON */
+
+    #homepage .jumbotron {
+        height: 520px;
+    }
+    
+    #homepage .jumbotron.section-py {
+        padding: 6.25rem 0;
+    }
+
+    #homepage .jumbotron svg {
+        width: 325px;
+    }
+
+    #homepage .jumbotron h1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* BIENVENUE */
+
+    #homepage #bienvenue p {
+        width: 50%;
+    }
+
+    /* PRESTATIONS */
+
+    #homepage .prestations .category {
+        width: 640px;
+        height: 965px;
+    }
+
+    #homepage .prestations .category .up {
+        height: 640px;
+    }
+
+    #homepage .prestations .category .down {
+        height: 325px;
+    }
+
+    #homepage .prestations .category .hair-removal {
+        background-image: url("../images/hair-removal-640.jpg");
+    }
+    
+    #homepage .prestations .category .nail {
+        background-image: url("../images/nail-640.jpg");
+    }
+    
+    #homepage .prestations .category .eyelash {
+        background-image: url("../images/eyelash-640.jpg");
+    }
+    
+    #homepage .prestations .category .care {
+        background-image: url("../images/care-640.jpg");
+    }
+
+    #homepage .prestations .category p {
+        width: 65%;
+    }
+
+    /* ABOUT */
+
+    #homepage #about .collapsible {
+        /*overflow: hidden;*/
+        height: 100%;
+        /*transition: height 0.5s ease-out;*/
+    }
+
+    #homepage #about button#btn-open, #homepage #about button#btn-close {
+        display: none;
+    }
+
+    /* INFO */
+
+    #homepage #info div.map {
+        background-image: url("../images/map-1720.jpg");
+        background-position: -730px -150px;
+        background-size: auto;
+    }
+
+    /* FORM */
+
+    #homepage .form div.content-02 form {
+        width: 516px;
+    }
+
+    #prices .form div.content-02 form {
+        width: 516px;
+    }
+
+    /* FOOTER */
+
+    footer .content-01, footer .content-02, footer .content-03 {
+        width: 100%;
+    }
+
+    footer .content-02 li {
+        padding-bottom: 10px;
+    }
+
+    footer .content-02 li a {
+        font-size: 1rem;
+    }
+    
+}
+
+@media (min-width: 992px) {
+
+    .container {
+        width: 820px;
+    }
+
+    /* PRESTATIONS */
+
+    #homepage .prestations .category {
+        height: 481px;
+        margin-right: 1px;
+    }
+
+    #homepage .prestations .category .up {
+        height: 50%;
+    }
+    
+    #homepage .prestations .category .down {
+        height: 50%;
+    }
+
+    #homepage .prestations .category h2 {
+        --h2-font-size: 1rem;
+    }
+
+    #homepage .prestations h2::first-letter {
+        --h2-first-letter: 1.25rem;
+    }
+
+    #homepage .prestations .category p {
+        width: 100%;
+    }
+
+    /* INFO */
+
+    #homepage #info div.map {
+        background-position-x: -630px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    /* HEADER */
+
+    .underline a {
+        position: relative;
+    }
+    
+    .underline a::after {
+        position: absolute;
+        left: 0;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: var(--main-color);
+        transition: 0.3s;
+        opacity: 0;
+        visibility: hidden;
+        bottom: 0px;
+    }
+    
+    .underline a:hover::after {
+        bottom: 5px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* PRESTATIONS */
+
+    #homepage .prestations .category {
+        height: 497px;
+    }
+    /*
+    .radio-btns:hover .radio-btns__btn:not(:hover) {
+        filter: grayscale(10%);
+    }
+    
+    .radio-btns:hover .radio-btns__btn:not(:hover)::after {
+        background-color: rgb(104, 95, 116, 0.9);
+    }
+    
+    .radio-btns__btn {
+        position: relative;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    .radio-btns__btn::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        transition: 0.3s;
+    }
+    */
+
+    /* INFO */
+
+    #homepage #info div.map {
+        /*background-position: initial;
+        background-size: cover;*/
+    }
+
+}
+
+@media (min-width: 1140px) {
+
+    /* PRESTATIONS */
+
+    #homepage .prestations .category {
+        height: 555px;
+    }
+
+    #homepage .prestations .category p {
+        width: 65%;
+    }
+
+    /* INFO */
+
+    #homepage #info div.map {
+        background-position-x: -550px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        width: 960px;
+    }
+
+    .container-le { /* container large */
+        width: 100%;
+    }
+
+    .container-price {
+        width: 1200px;
+        margin: auto;
+    }
+
+    /******************** HOMEPAGE ********************/
+
+    /* JUMBOTRON */
+
+    #homepage .jumbotron {
+        height: 575px;
+    }
+
+    #homepage .jumbotron svg.logo-meloha {
+        width: 480px;
+    }
+
+    /* PRESTATIONS */
+
+    #homepage .prestations .category {
+        height: 570px;
+        margin-right: 20px;
+    }
+
+    #homepage .prestations .category h2 {
+        --h2-font-size: 1.375rem;
+    }
+
+    #homepage .prestations h2::first-letter {
+        --h2-first-letter: 1.5rem;
+    }
+
+    /* INFO */
+
+    #homepage #info div.map {
+        background-position: initial;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+    }
+
+    #homepage #info .schedule {
+        position: relative;
+        width: 375px;
+        height: 667px;
+        left: 140px;
+    }
+
+    /* FORM */
+
+    #homepage .form div.content-01 {
+        width: 375px;
+    }
+
+    #prices .form div.content-01 {
+        width: 375px;
+    }
+
+    /* FOOTER */
+
+    footer .content-01, footer .content-02, footer .content-03 {
+        border-bottom: none;
+    }
+
+    footer .content-01, footer .content-02 {
+        padding-bottom: 0;
+        padding-right: 2rem;
+    }
+
+    footer .content-02, footer .content-03 {
+        padding-top: 0;
+        padding-left: 2rem;
+    }
+
+    footer span.split {
+        width: 50px;
+        height: 2px;
+        background-color: var(--secondary-color);
+        margin-bottom: 10px;
+    }
+
+    footer .content-02 li {
+        padding-bottom: 13px;
+    }
+
+    footer .content-01 p, footer .content-02 li a {
+        font-size: 0.8125rem;
+    }
+
+    /******************** PRICES ********************/
+
+    .pad-l {
+        padding-left: 30px;
+    }
+
+    .pad-r {
+        padding-right: 30px;
+    }
+
+    #prices .prices .waxing {}
+
+}
+
+@media (min-width: 1360px) {
+
+    /* JUMBOTRON */
+
+    #homepage .jumbotron {
+        height: 652px;
+    }
+
+    #homepage .jumbotron.section-py {
+        padding-top: 9.25rem;
+        padding-bottom: 9.25rem;
+    }
+
+    /* PRESTATIONS */
+
+    #homepage .prestations .category {
+        height: 650px;
+    }
+
+    /* FORM */
+
+    #homepage #info .schedule {
+        left: 210px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    .container {
+        width: 1200px;
+    }
+
+    .container-le {
+        width: 1440px; /* A TESTER !!!! */
+        margin: auto;
+    }
+
+    /* JUMBOTRON */
+
+    #homepage .jumbotron {
+        height: 690px;
+    }
+
+    #homepage .jumbotron.section-py {
+        padding-top: 11.25rem;
+        padding-bottom: 11.25rem;
+    }
+
+    /* BIENVENUE */
+
+    #homepage #bienvenue p {
+        width: 30%;
+    }
+
+    /* PRESTATIONS */
+
+    #homepage .prestations .category {
+        height: 690px;
+    }
+
+    /* INFO */
+
+    #homepage #info div.map {
+        height: 667px;
+    }
+
+    /* FOOTER */
+
+    footer .content-01, footer .content-02 {
+        padding-right: 3rem;
+    }
+
+    footer .content-02, footer .content-03 {
+        padding-left: 3rem;
+    }
+
+}
+
+@media (min-width: 1920px) {
+
+    h1 {
+        --h1-font-size: 3.25rem;
+        line-height: 60px;
+    }
+
+    h1 span.first-letter {
+        --h1-first-letter: 3.75rem;
+    }
+
+    .container {
+        width: 1200px;
+    }
+
+    .container-le {
+        width: 1720px;
+    }
+
+    /* JUMBOTRON */
+
+    #homepage .jumbotron {
+        height: 824px;
+    }
+
+    #homepage .jumbotron.section-py {
+        padding-top: 13.25rem;
+        padding-bottom: 13.25rem;
+    }
+
+    #homepage .jumbotron svg.logo-meloha {
+        width: 30%;
+    }
+
+    /* BIENVENUE */
+
+    #homepage #bienvenue p {
+        width: 49%;
+    }
+
+    /* PRESTATIONS */
+
+    #homepage .prestations .category {
+        height: 800px;
+        margin-right: 40px;
+    }
+
+    /* INFO */
+
+    #homepage #info div.map {
+        width: 1720px;
+        background-size: auto;
+    }
+
+    #homepage #info .schedule {
+        left: 280px;
+    }
+
+    /* FOOTER */
+
+    footer .content-01, footer .content-02 {
+        padding-right: 4rem;
+    }
+
+    footer .content-02, footer .content-03 {
+        padding-left: 4rem;
+    }
+
+}
