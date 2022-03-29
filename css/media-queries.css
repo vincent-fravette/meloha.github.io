@@ -1,3 +1,27 @@
+@media (min-width: 360px) {
+
+    #homepage #about .collapsible {
+        height: 675px;
+    }
+    
+    #homepage #about .collapsed {
+        height: 1755px;
+    }
+
+}
+
+@media (min-width: 375px) {
+
+    #homepage #about .collapsible {
+        height: 653px;
+    }
+    
+    #homepage #about .collapsed {
+        height: 1682px;
+    }
+
+}
+
 @media (min-width: 414px) {
 
     /* ABOUT */
@@ -293,6 +317,10 @@
 
     #homepage .jumbotron svg.logo-meloha {
         width: 480px;
+    }
+
+    #homepage .jumbotron h1 {
+        font-size: 1.625rem;
     }
 
     /* PRESTATIONS */
