@@ -1,0 +1,1166 @@
+@charset "utf-8";
+
+:root {
+    --main-color: #EED1AC;
+    --secondary-color: #A77D48;
+    --tertiary-color: #E5BE8A;
+    --body-color: #613D0E;
+    --success-color : rgb(185, 215, 161, 0.2);
+    --alert-color : #e63a2e;
+    --padding-x: 1.875rem;
+    --padding-y: 5rem;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--body-color);
+    letter-spacing: 1px;
+}
+
+a {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--body-color);
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    padding-left: 0;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 2.125rem;
+    font-weight: 700;
+    color: var(--main-color);
+    text-transform: uppercase;
+    line-height: 2.375rem;
+    margin-bottom: 1.25rem;
+}
+
+h1 span.cap-letter {
+    font-size: 2.375rem;
+}
+
+h1 span.line-break {
+    color: var(--secondary-color);
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+input, select, textarea {
+    width: 100%;
+}
+
+input.control, select.control {
+    height: 38px;
+}
+
+textarea.control {
+    height: 86px;
+}
+
+/*************************************************/
+
+svg.logo-meloha, svg.logo-m {
+    fill: var(--main-color);
+}
+
+.main-container {
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wide-container {
+    width: 100%;
+}
+
+.padding-x {
+    padding-left: var(--padding-x);
+    padding-right: var(--padding-x);
+}
+
+.padding-y {
+    padding-top: var(--padding-y);
+    padding-bottom: var(--padding-y);
+}
+
+.d-none {
+    display: none;
+}
+
+.leaf-01 {
+    background-color: rgb(249, 209, 171, 1);
+}
+
+.leaf-02 {
+    background-color: rgb(181, 125, 66, 1);
+}
+
+.mr-0 {
+    margin-right: 0!important;
+}
+
+.btn {
+    width: 134px;
+    height: 44px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+span.div-line {
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: var(--tertiary-color);
+    margin: 0.625rem auto;
+}
+
+.collapsible {
+    height: 385px;
+    overflow: hidden;
+    transition: height 0.5s ease-out;
+}
+
+.collapsed {
+    height: 1985px;
+    transition: height 0.5s ease-in;
+}
+
+.disabled {
+    opacity: 1;
+    user-select: none;
+    pointer-events: none;
+}
+
+/******** FORM ********/
+
+.form {
+    width: 100%;
+}
+
+.form-contact .form .show-message {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--success-color);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.form .control {
+    margin-bottom: 1rem;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid var(--main-color);
+    color: var(--body-color);
+}
+
+.control::placeholder, .form .contact-form select.control option.select-option {
+    color: gray;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+}
+
+.form-button button {
+    background-color: var(--main-color);
+    color: var(--body-color);
+    border: none;
+}
+
+.form-contact .text {
+    margin-bottom: 2.5rem;
+}
+
+.form-contact .text h1 {
+    margin-bottom: 0;
+}
+
+.form-contact .text span.div-line {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/******** HEADER ********/
+
+header {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+header svg.logo-m {
+    height: 46px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-menu {
+    display: none;
+}
+
+header .nav-menu .facebook, header .nav-menu .instagram {
+    fill: var(--body-color);
+    height: 20px;
+}
+
+header .nav-menu.navigation-link li a {
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+}
+
+header .nav-menu.social-link li:first-child a {
+    margin-right: 1rem;
+}
+
+/******** FOOTER ********/
+
+footer {
+    background-color: var(--tertiary-color);
+    padding-top: 2.5rem;
+    font-size: 0.9375rem;
+}
+
+footer .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer svg.logo-meloha {
+    width: 150px;
+    margin-bottom: 2.5rem;
+}
+
+footer .footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+footer .footer-nav .menu-terms, footer .footer-nav .menu-social, footer .footer-nav .menu-link {
+    width: 184px;
+}
+
+footer .footer-nav .menu-link {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+footer .footer-nav .menu-link li {
+    margin-bottom: 1rem;
+}
+
+footer .footer-nav .menu-link li:last-child {
+    margin-bottom: 0;
+}
+
+footer .footer-nav .menu-social {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2.5rem;
+}
+
+footer .footer-nav .menu-terms {
+    text-align: center;
+}
+
+footer .footer-nav .menu-terms li {
+    margin-bottom: 1rem;
+}
+
+footer .footer-nav .menu-terms li:last-child {
+    margin-bottom: 0;
+}
+
+footer .footer-nav .menu-social li a svg.facebook, footer .footer-nav .menu-social li a svg.instagram {
+    height: 30px;
+    fill: var(--body-color);
+}
+
+footer p {
+    font-size: 0.75rem;
+    margin-bottom: 0.80rem;
+}
+
+/****/
+
+.jumbotron {
+    height: 410px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.jumbotron .main-container h1 {
+    margin-bottom: 0;
+}
+
+/****/
+
+/******** THUMBNAILS ********/
+
+.benefits .main-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.benefits nav .row ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits nav .row ul li .thumbnails {
+    max-width: 414px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 0;
+}
+
+.benefits nav .row ul li .thumbnails img {
+    width: 70px;
+    display: none;
+}
+
+.benefits nav .row ul li .thumbnails h2 {
+    text-align: center;
+    font-size: 1.75rem;
+    line-height: 32px;
+    margin-bottom: 2.5rem;
+}
+
+.benefits nav .row ul li .thumbnails h2 span.cap-letter {
+    font-size: 2.1875rem;
+}
+
+.benefits nav .row ul li .thumbnails a {
+    /*background-color: rgb(98, 53, 7, 0.2);*/
+    font-size: 0.8125rem;
+    font-weight: 100;
+    padding: 0.5rem 0.5625rem;
+}
+
+.benefits nav .row ul li.eyelash {
+    order: 2;
+}
+
+.benefits nav .row ul li.brow-lift {
+    order: 1;
+}
+
+.benefits nav .row ul li.lifting {
+    order: 2;
+}
+
+.benefits nav .row ul li.cryotherapy {
+    order: 1;
+}
+
+/******** TARIFS ********/
+
+.prices .main-container {
+    padding-bottom: 2.5rem;
+}
+
+.prices svg.divider {
+    width: 270px;
+    height: 20px;
+    stroke: var(--main-color);
+    stroke-width: 0.5;
+    margin: 0 auto 1.25rem auto;
+}
+
+.prices .service-name h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.prices .service-name .service-price {
+    margin-bottom: 3rem;
+}
+
+.prices .service-name .service-price .service-for {
+    margin-bottom: 1.875rem;
+}
+
+.prices .service-name .service-price .service-for h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+}
+
+.prices .service-name .service-price .service-for .service-benefit {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--main-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.prices .service-name .service-price .service-for .service-benefit p {
+    align-self: center;
+}
+
+.prices .service-name .service-price .service-for .service-benefit p span.asterisk {
+    font-size: 0.75rem;
+}
+
+.prices .service-name .service-price .service-for .service-benefit p:last-child {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.prices .service-name .note {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/******** HOMEPAGE ********/
+
+#homepage .jumbotron {
+    height: 100%;
+}
+
+#homepage .jumbotron .wide-container {
+    height: 100%;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#homepage .jumbotron svg.logo-meloha {
+    fill: var(--tertiary-color);
+}
+
+#homepage .jumbotron h1 {
+    color: var(--tertiary-color);
+    font-size: 0.8125rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#homepage .welcome .main-container {
+    text-align: center;
+}
+
+#homepage .welcome h1 {
+    margin-bottom: 0;
+}
+
+#homepage .about p {
+    margin-bottom: 1rem;
+}
+
+#homepage .about p.signature {
+    margin-bottom: 0;
+    text-align: end;
+    margin-top: 2rem;
+}
+
+#homepage .about p.signature span {
+    font-family: 'Lora', serif;
+    font-size: 1.5625rem;
+    text-transform: uppercase;
+    line-height: 24px;
+    color: var(--main-color);
+}
+
+#homepage .about .read-more {
+    display: flex;
+    justify-content: center;
+}
+
+#homepage .about .read-more a.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--body-color);
+    color: #FFFFFF;
+}
+
+#homepage .about .read-more a.btn-less {
+    display: none;
+}
+
+#homepage .info .main-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#homepage .info .map img {
+    width: 100%;
+}
+
+#homepage .info .map .desktop {
+    display: none;
+}
+
+#homepage .info .info-details {
+    background-color: var(--main-color);
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+}
+
+#homepage .info .info-details .details-content .opening {
+    margin-bottom: 1.875rem;
+}
+
+#homepage .info .info-details .details-content .opening h2 {
+    font-size: 1.125rem;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+#homepage .info .info-details .details-content .opening h2 span.cap-letter {
+    font-size: 1.375rem;
+}
+
+#homepage .info .info-details .details-content .opening .hourly {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.9375rem;
+    border-bottom: 1px solid var(--tertiary-color);
+}
+
+#homepage .info .info-details .details-content .contact .address, .details-content .contact .phone, .details-content .contact .mail {
+    display: flex;
+    align-items: center;
+}
+
+#homepage .info .info-details .details-content .contact .phone {
+    margin-top: 0.9375rem;
+    margin-bottom: 0.625rem;
+}
+
+#homepage .info .info-details .details-content .contact img {
+    height: 45px;
+    margin-right: 1.25rem;
+}
+
+#homepage .info .info-details .details-content .contact p {
+    font-size: 0.8125rem;
+}
+
+#homepage .partnership {
+    background-color: rgb(247, 242, 242, 0.5);
+}
+
+#homepage .partnership span.div-line {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#homepage .partnership .partner-info {
+    margin-top: 1.25rem;
+}
+
+#homepage .partnership .partner-info img {
+    margin: 0 auto 1.25rem;
+    border: 1px solid var(--tertiary-color);
+}
+
+#homepage .partnership .partner-info p {
+    font-size: 1.0625rem;
+}
+
+#homepage .partnership .partner-info .partner-contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.25rem;
+}
+
+#homepage .partnership .partner-info .partner-contact a svg {
+    height: 35px;
+    fill: var(--main-color);
+}
+
+/******** SERVICES ********/
+
+#services .description {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#services .description h2 {
+    text-align: center;
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+}
+
+#services .description .description-service h3 {
+    font-weight: 600;
+}
+
+#services .description .description-service p {
+    margin-bottom: 1.25rem;
+}
+
+#services .description .description-service p span {
+    display: none;
+}
+
+#services .description .description-service .gallery img {
+    margin-bottom: 1.25rem;
+}
+
+/******** ERREUR 404 ********/
+
+#error .error-page {
+    background-color: var(--body-color);
+}
+
+#error .error-page .wide-container {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+}
+
+#error .error-page h1 {
+    font-size: 1.625rem;
+    line-height: initial;
+}
+
+#error .error-page p {
+    color: var(--main-color);
+    font-size: 1.3125rem;
+}
+
+/******** MEDIA QUERIES ********/
+
+/*@media (min-width: 320px) {/* iPhone 4 *//*}*/
+
+@media (min-width: 360px) { /* Galaxy S5 */
+
+    .collapsed {
+        height: 1775px;
+    }
+
+    .thumbnails h2 {
+        font-size: 1.9375rem;
+        line-height: 36px;
+    }
+
+    .thumbnails h2 span.cap-letter {
+        font-size: 2.25rem;
+    }
+
+    #error .error-page h1 {
+        font-size: 1.9375rem;
+    }
+
+    #homepage .jumbotron h1 {
+        font-size: 1rem;
+    }
+
+    #homepage .info .info-details .details-content .opening h2 {
+        font-size: 1.3125rem;
+    }
+
+    #homepage .info .info-details .details-content .opening h2 span.cap-letter {
+        font-size: 1.5rem;
+    }
+
+    #homepage .info .info-details .details-content .contact p {
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width: 375px) { /* iPhone 6 */
+
+    .collapsible {
+        height: 360px;
+    }
+
+    .collapsed {
+        height: 1710px;
+    }
+
+    .benefits nav .row ul li .thumbnails h2 {
+        font-size: 2.0625rem;
+        line-height: 39px;
+    }
+
+    .benefits nav .row ul li .thumbnails h2 span.cap-letter {
+        font-size: 2.375rem;
+    }
+
+    #error .error-page h1 {
+        font-size: 2rem;
+    }
+
+    #homepage .info .info-details .details-content .opening h2 {
+        font-size: 1.375rem;
+    }
+
+    #homepage .info .info-details .details-content .opening h2 span.cap-letter {
+        font-size: 1.5rem;
+    }
+
+    #homepage .info .info-details .details-content .contact p {
+        font-size: 1.0625;
+    }
+
+}
+
+@media (min-width: 390px) { /* iPhone 12 Pro */
+
+    .collapsed {
+        height: 1655px;
+    }
+
+    #error .error-page h1 {
+        font-size: 2.125rem;
+    }
+
+    #homepage .jumbotron h1 {
+        font-size: 1.125rem;
+    }
+
+    #homepage .info .info-details .details-content .opening h2 {
+        font-size: 1.5rem;
+    }
+
+    #homepage .info .info-details .details-content .opening h2 span.cap-letter {
+        font-size: 1.625rem;
+    }
+
+}
+
+@media (min-width: 414px) { /* iPhone XR */
+
+    .collapsible {
+        height: 337px;
+    }
+
+    .collapsed {
+        height: 1525px;
+    }
+
+    .benefits nav .row ul li .thumbnails {
+        margin: 0 auto;
+    }
+
+    .benefits nav .row ul li .thumbnails img {
+        display: block;
+    }
+
+    .benefits nav .row ul li .thumbnails h2 {
+        font-size: 2.3125rem;
+        line-height: 43px;
+        margin-top: 1.25rem;
+    }
+
+    .benefits nav .row ul li .thumbnails h2 span.cap-letter {
+        font-size: 2.75rem;
+    }
+
+    #error .error-page h1 {
+        font-size: 2.25rem;
+    }
+    
+    #homepage .jumbotron h1 {
+        font-size: 1.1875rem;
+    }
+
+    #homepage .info .info-details .details-content {
+        max-width: 414px;
+        margin: auto;
+    }
+
+    #homepage .info .info-details .details-content .opening h2 {
+        font-size: 1.625rem;
+    }
+
+    #homepage .info .info-details .details-content .opening h2 span.cap-letter {
+        font-size: 1.75rem;
+    }
+
+    #services .description .description-service .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .padding-x {
+        --padding-x: 0;
+    }
+
+    .main-container {
+        width: 640px;
+    }
+
+    .form {
+        width: 516px;
+        margin: auto;
+    }
+
+    .collapsible {
+        height: 240px;
+    }
+
+    .collapsed {
+        height: 1000px;
+    }
+
+    header .nav-menu-mobile {
+        display: none;
+    }
+
+    header .nav-menu {
+        display: flex;
+    }
+
+    .benefits nav .row ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .benefits nav .row ul li {
+        width: 360px;
+        margin-bottom: 1rem;
+    }
+
+    .benefits nav .row ul li .thumbnails {
+        aspect-ratio: 1 / 1;
+    }
+
+    .benefits nav .row ul li .thumbnails h2 {
+        font-size: 2rem;
+        line-height: 37px;
+    }
+
+    .benefits nav .row ul li .thumbnails h2 span.cap-letter {
+        font-size: 2.375rem;
+    }
+    
+    .benefits nav .row ul li.eyelash {
+        order: 1;
+    }
+    
+    .benefits nav .row ul li.brow-lift {
+        order: 2;
+    }
+    
+    .benefits nav .row ul li.lifting {
+        order: 2;
+    }
+    
+    .benefits nav .row ul li.cryotherapy {
+        order: 1;
+    }
+    
+    .benefits nav .row ul li.facial-care {
+        order: 2;
+        margin-bottom: 0;
+    }
+    
+    .benefits nav .row ul li.body-care {
+        order: 1;
+        margin-bottom: 0;
+    }
+    
+    #homepage .jumbotron {
+        height: 520px;
+    }
+
+    #homepage .jumbotron svg.logo-meloha {
+        width: 325px;
+    }
+
+    #homepage .welcome p {
+        width: 50%;
+        margin: auto;
+    }
+
+    #homepage .info .main-container {
+        width: 100%;
+    }
+
+    #homepage .info .map .mobile {
+        display: none;
+    }
+
+    #homepage .info .map .desktop {
+        display: block;
+    }
+
+    #services .description .description-service .gallery img {
+        width: 300px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .main-container {
+        width: 820px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    footer .footer-nav {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    footer svg.logo-meloha {
+        margin-bottom: 3rem;
+    }
+
+    footer .footer-nav .menu-link, footer .footer-nav .menu-social {
+        margin-bottom: 0;
+    }
+
+    .main-container {
+        width: 960px;
+    }
+
+    section.form-contact .main-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section.form-contact .text {
+        width: 375px;
+    }
+
+    section.form-contact .form {
+        margin: 0;
+    }
+
+    .collapsible {
+        height: 100%;
+    }
+
+    .benefits nav .row {
+        display: flex;
+        width: 1200px;
+        margin: auto;
+    }
+
+    .benefits nav .row ul {
+        width: 100%;
+        justify-content: unset;
+    }
+    
+    .benefits nav .row ul li {
+        width: 280px;
+        margin-bottom: 0;
+        margin-right: 1.6875rem;
+    }
+
+    .benefits nav .row ul li .thumbnails h2 {
+        font-size: 1.5rem;
+        line-height: 29px;
+        height: 60px;
+    }
+
+    .benefits nav .row ul li .thumbnails h2 span.cap-letter {
+        font-size: 1.8125rem;
+    }
+
+    .benefits nav .row ul li.lifting {
+        order: 1;
+    }
+    
+    .benefits nav .row ul li.cryotherapy {
+        order: 2;
+    }
+    
+    .benefits nav .row ul li.facial-care {
+        order: 3;
+    }
+    
+    .benefits nav .row ul li.body-care {
+        order: 4;
+    }
+    
+    #homepage .jumbotron svg.logo-meloha {
+        width: 30%;
+    }
+
+    #homepage .jumbotron h1 {
+        font-size: 1.625rem;
+    }
+
+    #homepage .jumbotron {
+        height: 575px;
+    }
+
+    #homepage .about .read-more {
+        display: none;
+    }
+    
+    #homepage .info {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #homepage .info .info-details {
+        max-width: 414px;
+        padding-left: 1.875rem;
+        padding-right: 1.875rem;
+    }
+
+    #homepage .info .main-container {
+        width: 960px;
+        position: absolute;
+    }
+
+    #homepage .partnership .partner-info {
+        display: flex;
+    }
+
+    #homepage .partnership .partner-info img {
+        width: 230px;
+        margin-right: 1.25rem;
+    }
+
+    #homepage .partnership .partner-info .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #homepage .partnership .partner-info p {
+        font-size: 1.1875rem;
+    }
+
+    #homepage .partnership .partner-info .partner-contact {
+        margin-top: 0;
+        justify-content: center;
+    }
+
+    #homepage .partnership .partner-info .partner-contact a:nth-child(2) {
+        margin: 0 3.125rem;
+    }
+
+    #services .description .description-service .gallery img {
+        width: 360px;
+    }
+
+    .prices .service-name .service-price {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .prices .service-name .service-price .service-for {
+        width: 45%;
+    }
+
+    #error {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}
+
+@media (min-width: 1360px) {
+
+    .benefits nav ul li {
+        margin-bottom: 3rem;
+    }
+
+    #homepage .jumbotron {
+        /*height: 652px;*/
+        height: 698px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    .main-container {
+        width: 1200px;
+    }
+
+    section.form-contact .text {
+        width: 390px;
+    }
+
+    #homepage .jumbotron {
+        height: 690px;
+    }
+
+    #homepage .info .main-container {
+        width: 1200px;
+    }
+
+}
+
+@media (min-width: 1720px) {
+
+    .wide-container {
+        width: 1720px;
+        margin: auto;
+    }
+
+}
+
+@media (min-width: 1920px) {
+
+    h1 {
+        font-size: 3.25rem;
+        line-height: 60px;
+    }
+
+    h1 span.cap-letter {
+        font-size: 3.75rem;
+    }
+
+    section.form-contact .text {
+        width: 440px;
+    }
+
+    #homepage .jumbotron {
+        height: 824px;
+    }
+
+}

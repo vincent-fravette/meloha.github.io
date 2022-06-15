@@ -1,0 +1,123 @@
+{
+    "epilation": {
+        "name": "Les épilations",
+        "benefits": [
+            {
+                "name": null,
+                "text": "L'épilation consiste à enlever, temporairement ou définitivement, les poils courts ou fin, longs ou durs.<br>Elle peut concerner toutes les parties du corps, des plus visibles (visage, jambes, bras, etc..) jusqu'aux plus intimes (poils pubiens, ...).",
+                "images": [
+                    "public/images/services/hair-removal/hair-removal-01.jpg",
+                    "public/images/services/hair-removal/hair-removal-02.jpg"
+                ]
+            }
+        ]
+    },
+    "onglerie": {
+        "name": "Onglerie",
+        "benefits": [
+            {
+                "name": null,
+                "text": "Soin qui permet d'embellir les ongles des mains et/ou des pieds.<br>Limage, nettoyage, hydratation, protection, réparation, embellissement, voici les différentes étapes et propositions que vous trouverez dans la partie onglerie.<span><img src=\"public/images/services/nail/emoji-01.png\" alt=\"emoji ongles\" width=\"25px\" height=\"25px\"></span><br>&ldquo;your nails are jewelry not tools&rdquo;.<span><img src=\"public/images/services/nail/emoji-02.png\" alt=\"emoji diamant\" width=\"25px\" height=\"25px\"></span>",
+                "images": [
+                    "public/images/services/nail/nail-01.jpg",
+                    "public/images/services/nail/nail-02.jpg",
+                    "public/images/services/nail/nail-03.jpg",
+                    "public/images/services/nail/nail-04.jpg",
+                    "public/images/services/nail/nail-05.jpg"
+                ]
+            }
+        ]
+    },
+    "brow_lift": {
+        "name": "Brow Lift",
+        "benefits": [
+            {
+                "name": null,
+                "text": "La méthode consiste à épaissir et rehausser les sourcils, tout en fixant leur mouvement.Les poils sont redensifiés et redressés. Ils paraissent plus fournis et plus volumineux. Le \"Brow Lift\", c'est comme le rehaussement de cils. On travaille les poils pour qu'ils deviennent plus facile à coiffer et pour qu'on puisse leur donner la forme que l'on veut.<br>La méthode consiste à épaissir et rehausser les sourcils, tout en fixant leur mouvement. Les poils sont redensifiés et redressés. Ils paraissent plus fournis et plus volumineux. Le \"Brow Lift\", c'est comme le rehaussement de cils. On travaille les poils pour qu'ils deviennent plus facile à coiffer et pour qu'on puisse leur donner la forme que l'on veut.",
+                "images": []
+            }
+        ]
+    },
+    "rehaussement": {
+        "name": "Rehaussement de cils",
+        "benefits": [
+            {
+                "name": null,
+                "text": "Technique qui permet d’embellir le regard sans mascara et sans extensions. Le rehaussement de cils permet de les relever à la racine afin d’accentuer leur courbe, leur longueur et donner une impression de volume. De même, il offre un rendu beaucoup plus naturel puisqu'il ne nécessite pas l'ajout de cils synthétiques.<br>Pour un rendu encore meilleur, compléter-le avec une teinture, celle-ci lui donnera plus de profondeur et ainsi la sensation d’être naturellement maquillé.",
+                "images": [
+                    "public/images/services/eyelash/eyelash-01.jpg"
+                ]
+            }
+        ]
+    },
+    "lifting": {
+        "name": "Lifting Colombien",
+        "benefits": [
+            {
+                "name": null,
+                "text": "Le lifting colombien est une technique toute droit venue de Colombie.<br>100 % naturel, Sans aucune chirurgie, ni injection, c’est une méthode non invasive qui ne traumatise pas les tissus.<br>Le lifting colombien permet d’augmenter le volume des fesses, de repulper et de regalbé. Par la stimulation de notre propre collagène, il entraînera une meilleure élasticité des tissus.</p><p>Le drainage lymphatique améliorera la circulation sanguine dans un premier temps, ce qui entraînera une meilleure oxygénation des tissus et dans un second temps il améliorera le retour veineux ce qui aidera à l’élimination de l’eau et des toxines. Il délogera les capitons (cellulite) afin de libérer les graisses, ce qui les rendras de nouveaux mobilisables et donc éliminables.</p><p>Résultats:<br>- Plus de volume<br>- Fessier galbé<br>- Peau raffermit - tonique<br>- Jambe drainer<br>- Cellulite lisser</p><p>Comment fonctionne le lifting colombien ?</p><p>Au niveau des fesses, la thérapie à ventouse donne du volume sur cette zone. Les ventouses exercent une aspiration qui va stimuler l’irrigation sanguine de la peau afin de lui procurer un aspect galbé, ferme et naturel. Le tissu adipeux sera drainé ainsi la graisse va se mobiliser vers le système lymphatique. Les ventouses vont soulever le fessier, stimuler son muscle et le tonifier. Au niveau des fesses ainsi que des cuisses, le lifting colombien va également traiter la cellulite en la diminuant.</p><p>Contre-indications Lifting Colombien:<br>- Maladie virales actives<br>- Pacemaker<br>- Hypertension artérielle<br>- varices<br>- Diabète<br>- Cancer ou tumeur<br>- Problème de coagulation<br>- Maladies cardiaque<br>- Phlébite et thrombose",
+                "images": []
+            }
+        ]
+    },
+    "cryotherapie": {
+        "name": "Cryothérapie",
+        "benefits": [
+            {
+                "name": null,
+                "text": "Traitement idéal et non invasif pour réduire le volume corporel et tonifier la peau.<br>Son action, par le froid, consistera à raffermir la peau et à brûler les graisses. Ce traitement se fait à l’aide de ventouses, dans lesquelles sont fixées des galets de froid protégés par des tissus et recouvert de gel cryo.</p><p>La méthode se décompose en 2 phases:<br>- 1ère phase: tonifier la peau grâce à l'effet glaçon (20min).<br>- 2ème phase: brûler les graisses car soumis à 40 min de froid profond, les adipocytes (cellules graisseuses) accélèrent leurs phases de destruction et seront ensuite éliminées par les urines.</p><p>Un drainage lymphatique de 20 min est inclus dans votre soin, il est pratiqué dans un tout premier temps avant de commencer avec les ventouses, il permettra alors une évacuation plus rapide et plus efficace des déchets et toxines.</p><p>Se sentir bien dans son corps et dans sa tête est important!.<img src=\"public/images/services/cryotherapy/emoji-01.png\" alt=\"emoji etoiles\" width=\"25px\" height=\"25px\">",
+                "images": []
+            }
+        ]
+    },
+    "soin_visage": {
+        "name": "Les soins du visage",
+        "benefits": [
+            {
+                "name": null,
+                "text": "Un soin du visage est destiné à préserver la propreté du visage (nettoyage, gommage) afin d’éliminer impuretés, toxines, pollution, cellules mortes, maintenir son hydratation et il est également destine à l’embellir, le raffermir, le tonifier ou le régénérer.</p><p>Les soins visages s’adressent à tout le monde qui souhaitent traiter une problématique tels que:<br>- Les imperfections<br>- La perte de fermeté, d'élasticité<br>- Les rides et ridules<br>- Les cernes et contour des yeux<br>- l'éclat<br>- l'hydratation<br>- les tâches pigmentaires</p><p>Un diagnostic complet est fait, afin de déterminer vos besoins et vos attentes pour créer votre soin sur mesure.</p><p>TOUS LES SOINS VISAGES PROPOSÉS SONT ENSUITE ADAPTÉS ET PERSONNALISÉ SELON VOS BESOINS.",
+                "images": [
+                    "public/images/services/facial-care/facial-care-01.jpg"
+                ]
+            }
+        ]
+    },
+    "soin_corps": {
+        "name": "Les soins du corps",
+        "benefits": [
+            {
+                "name": "Delfin",
+                "text": "DELFIN, matériel HAUT DE GAMME et expert dans le domaine du lifting et remodelage du corps depuis 17 ans, tout droit venue de Colombie.",
+                "images": [
+                    "public/images/services/body-care/body-care-01.jpg"
+                ]
+            },
+            {
+                "name": "Drainage",
+                "text": "Le drainage lymphatique est une technique de massage manuel ou mécanique qui permet de stimuler la circulation de la lymphe. Cette méthode repose sur des mouvements lents associés à des pressions, elle draine les toxines et les débris cellulaires, pour la débarrasser de ses résidus et ainsi éviter les œdèmes.</p><p>Contre-indication:<br>- Lymphangite<br>- Erysipèle<br>- Tuberculose<br>- Thrombose<br>- Phlébite<br>- Problèmes cardiaques<br>- Hypertyroïdie<br>- Asthme<br>- Hypotension artérielle",
+                "images": []
+            },
+            {
+                "name": "Gommage",
+                "text": "Le gommage permet d’éliminer les cellules mortes accumulées à la surface de l’épiderme. Il favorise une meilleure oxygénation de la peau et stimule la micro-circulation.<br>Après un gommage, la peau absorbera mieux les actifs hydratants et nourrissants. Il permet, lors de l'épilation, de préparer la peau afin d’avoir une meilleure extraction du poil.",
+                "images": [
+                    "public/images/services/body-care/body-care-scrub.jpg"
+                ]
+            },
+            {
+                "name": "Dos",
+                "text": "Le dos est une partie du corps difficilement accessible. Le soin du dos vise à nettoyer en profondeur les impuretés, il permet de purifier, diminuer les comédons (boutons et points noirs) et de rééquilibrer l’hydratation de la peau.",
+                "images": [
+                    "public/images/services/body-care/body-care-back.jpg"
+                ]
+            },
+            {
+                "name": "Massage 5 continents",
+                "text": "Le massage 5 continents, bien plus qu’un soin, une expérience, un traitement d’équilibrage énergétique associant l’énergie du Reiki et du magnétisme réunissant différents types de massages de cultures et d’origines variées tel que le : lomi lomi, californien, suédois, tuina et ayurvédique.<br>Ce massage est une méthode thérapeutique de magnétisme et de reiki associée à un massage de tout le corps très puissant, lent et profond, qui permet de faire circuler l’énergie vitale directement à l’intérieur du corps de la personne.<br>C’est un procédé de massage relié à l’énergie de guérison interne de la personne et de l’énergie universelle par lequel on fait remonter tout doucement le long de la colonne vertébrale la force vitale (kundalini) afin de libérer une grande quantité de cette puissance dans le cœur. Ce procédé de massage biodynamique réveille les processus naturels d’auto guérison en déchargeant les mémoires émotionnelles encombrantes ainsi que les toxines.</p><p>Tel une psychothérapie pour le corps, il permet de laisser se dérouler tout un développement réparateur et initiateur, ouvrant la mémoire du corps, nettoyant peu à peu les anciens traumas et laissant l’énergie de plaisir et de vie (libido) circuler librement. Cette méthode de soin apporte un lâcher prise physique et mental de manière impressionnante.<br>Il permet petit à petit de redonner grande confiance et une nouvelle vitalité, de retrouver l’estime de soi, un grand sentiment de paix, joie de vivre et surtout d’harmoniser les charges émotionnelles bloquant l’énergie.</p><p>Les préparations avec des plantes sacrées utilisées en ayurvédique, huiles essentielles et différentes huiles végétales dans ce soin sont réparties proportionnellement selon les critères des phases:<br>Première : désintoxication<br>Deuxième : relaxation, lâcher-prise<br>Dernière : revitalisation, reconnexion et stimulation du système immunitaire</p><p>Ce massage est un massage de bienveillance et de cœur !",
+                "images": [
+                    "public/images/services/body-care/body-care-massage.jpg"
+                ]
+            }
+        ]
+    }
+}

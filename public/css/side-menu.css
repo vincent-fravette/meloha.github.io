@@ -1,0 +1,102 @@
+/******** MENU MOBILE ********/
+.menu-icon {
+    width: 50px;
+    height: 46px;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+}
+.menu-icon span {
+    display: block;
+    width: 100%;
+    height: 7px;
+    background-color: var(--main-color);
+    /*border-radius: 10px;*/
+    position: relative;
+    right: 0;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+.menu-icon span:nth-child(1) {
+    top: 0px;
+}
+.menu-icon span:nth-child(2) {
+    top: 13px;
+}
+.menu-icon span:nth-child(3) {
+    top: 25px;
+}
+.menu-icon.animation span {
+    background-color: var(--secondary-color);
+}
+.menu-icon.animation span:nth-child(1) {
+    top: 20px;
+    transform: rotate(135deg);
+    /*border-radius: 0px;*/
+}
+.menu-icon.animation span:nth-child(2) {
+    right: 55px;
+    opacity: 0;
+}
+.menu-icon.animation span:nth-child(3) {
+    top: 6px;
+    transform: rotate(-135deg);
+    /*border-radius: 0px;*/
+}
+.wrap-menu-icon.wrap-active {
+    display: flex;
+    justify-content: end;
+}
+.nav-menu-mobile.open {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--main-color);
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 0.75rem;
+}
+.hidden {
+    display: none;
+}
+.show {
+    display: flex;
+}
+.nav-menu-mobile .wrap-ul {
+    height: 100%;
+    padding: 1.25rem 0;
+    flex-direction: column;
+    /*justify-content: center;*/
+}
+.nav-menu-mobile ul.navigation-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-menu-mobile ul.navigation-link li {
+    margin-bottom: 10%;
+}
+.nav-menu-mobile ul.navigation-link a {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.nav-menu-mobile ul.social-link {
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-menu-mobile ul.social-link .facebook, header .nav-menu-mobile ul.social-link .instagram {
+    height: 60px;
+    fill: var(--body-color);
+}
+/*********************/
+
+@media (min-width: 360px) { /* Galaxy S5 */
+
+    .nav-menu-mobile ul.navigation-link li {
+        margin-bottom: 20%;
+    }
+
+}

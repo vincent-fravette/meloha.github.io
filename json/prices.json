@@ -1,0 +1,440 @@
+{
+    "services": [
+        {
+            "name": "Les épilations",
+            "prices": [
+                {
+                    "for": "Femmes",
+                    "benefits": [
+                        {
+                            "name": "Sourcils",
+                            "text": null,
+                            "subText": null,
+                            "price": "12&euro;"
+                        },
+                        {
+                            "name": "Lévre",
+                            "text": null,
+                            "subText": null,
+                            "price": "8&euro;"
+                        },
+                        {
+                            "name": "Menton",
+                            "text": null,
+                            "subText": null,
+                            "price": "5&euro;"
+                        },
+                        {
+                            "name": "Visage",
+                            "text": null,
+                            "subText": null,
+                            "price": "22&euro;"
+                        },
+                        {
+                            "name": "Aisselles",
+                            "text": null,
+                            "subText": null,
+                            "price": "12&euro;"
+                        },
+                        {
+                            "name": "Demi Bras",
+                            "text": null,
+                            "subText": null,
+                            "price": "12&euro;"
+                        },
+                        {
+                            "name": "Bras",
+                            "text": null,
+                            "subText": null,
+                            "price": "16&euro;"
+                        },
+                        {
+                            "name": "Maillot",
+                            "text": null,
+                            "subText": null,
+                            "price": "12&euro;"
+                        },
+                        {
+                            "name": "Maillot semi-integral",
+                            "text": null,
+                            "subText": null,
+                            "price": "22&euro;"
+                        },
+                        {
+                            "name": "Maillot semi-integral + sif",
+                            "text": null,
+                            "subText": null,
+                            "price": "29&euro;"
+                        },
+                        {
+                            "name": "Cuisses",
+                            "text": null,
+                            "subText": null,
+                            "price": "22&euro;"
+                        },
+                        {
+                            "name": "Demi jambes",
+                            "text": null,
+                            "subText": null,
+                            "price": "18&euro;"
+                        },
+                        {
+                            "name": "Jambes entières",
+                            "text": null,
+                            "subText": null,
+                            "price": "27&euro;"
+                        }
+                    ]
+                },
+                {
+                    "for": "Hommes",
+                    "benefits": [
+                        {
+                            "name": "Sourcils",
+                            "text": null,
+                            "subText": null,
+                            "price": "12&euro;"
+                        },
+                        {
+                            "name": "Oreilles",
+                            "text": null,
+                            "subText": null,
+                            "price": "8&euro;"
+                        },
+                        {
+                            "name": "Nez",
+                            "text": null,
+                            "subText": null,
+                            "price": "5&euro;"
+                        },
+                        {
+                            "name": "Aisselles",
+                            "text": null,
+                            "subText": null,
+                            "price": "13&euro;"
+                        },
+                        {
+                            "name": "Bras",
+                            "text": null,
+                            "subText": null,
+                            "price": "18&euro;"
+                        },
+                        {
+                            "name": "Torse",
+                            "text": null,
+                            "subText": null,
+                            "price": "25&euro;"
+                        },
+                        {
+                            "name": "Dos",
+                            "text": null,
+                            "subText": null,
+                            "price": "25&euro;"
+                        },
+                        {
+                            "name": "Epaules",
+                            "text": null,
+                            "subText": null,
+                            "price": "13&euro;"
+                        },
+                        {
+                            "name": "Jambes entières",
+                            "text": null,
+                            "subText": null,
+                            "price": "32&euro;"
+                        }
+                    ]
+                }
+            ],
+            "note": null
+        },
+        {
+            "name": "La beauté des ongles",
+            "prices": [
+                {
+                    "for": "Mains",
+                    "benefits": [
+                        {
+                            "name": "Beauté des mains",
+                            "text": null,
+                            "subText": null,
+                            "price": "30&euro;"
+                        },
+                        {
+                            "name": "Spa des mains",
+                            "text": null,
+                            "subText": null,
+                            "price": "40&euro;"
+                        },
+                        {
+                            "name": "Vernis simple",
+                            "text": null,
+                            "subText": null,
+                            "price": "15&euro;"
+                        },
+                        {
+                            "name": "Semi-permanent",
+                            "text": null,
+                            "subText": null,
+                            "price": "30&euro;"
+                        },
+                        {
+                            "name": "Dépose gel/semi-permanent",
+                            "text": "(+ soin)",
+                            "subText": null,
+                            "price": "15&euro;"
+                        },
+                        {
+                            "name": "Forfait dépose",
+                            "text": "semai-permanent + pose",
+                            "subText": null,
+                            "price": "35&euro;"
+                        },
+                        {
+                            "name": "Pose de gel",
+                            "text": "sur ongles naturels",
+                            "subText": null,
+                            "price": "55&euro;"
+                        },
+                        {
+                            "name": "Rallongement gel charbon",
+                            "text": null,
+                            "subText": null,
+                            "price": "69&euro;"
+                        },
+                        {
+                            "name": "Rallongment capsules gel",
+                            "text": null,
+                            "subText": null,
+                            "price": "60&euro;"
+                        },
+                        {
+                            "name": "Remplissage",
+                            "text": null,
+                            "subText": null,
+                            "price": "48&euro;"
+                        }
+                    ]
+                },
+                {
+                    "for": "Pieds",
+                    "benefits": [
+                        {
+                            "name": "Beauté des pieds",
+                            "text": null,
+                            "subText": null,
+                            "price": "35&euro;"
+                        },
+                        {
+                            "name": "Spa des pieds",
+                            "text": null,
+                            "subText": null,
+                            "price": "45&euro;"
+                        },
+                        {
+                            "name": "Vernis simple",
+                            "text": null,
+                            "subText": null,
+                            "price": "15&euro;"
+                        },
+                        {
+                            "name": "Semi-permanent",
+                            "text": null,
+                            "subText": null,
+                            "price": "30&euro;"
+                        },
+                        {
+                            "name": "Dépose gel/semi-permanent",
+                            "text": null,
+                            "subText": null,
+                            "text": "(+ soin)",
+                            "price": "15&euro;"
+                        },
+                        {
+                            "name": "Forfait dépose",
+                            "text": "semi-permanent + pose",
+                            "subText": null,
+                            "price": "35&euro;"
+                        },
+                        {
+                            "name": "Pose de gel",
+                            "text": "sur ongles naturels",
+                            "subText": null,
+                            "price": "40&euro;"
+                        }
+                    ]
+                },
+                {
+                    "for": "Forfaits",
+                    "benefits": [
+                        {
+                            "name": "Semi-permanent",
+                            "text": "mains et pieds",
+                            "subText": null,
+                            "price": "55&euro;"
+                        },
+                        {
+                            "name": "Dépose semi-permanent",
+                            "text": "mains et pieds + repose",
+                            "subText": null,
+                            "price": "65&euro;"
+                        }
+                    ]
+                },
+                {
+                    "for": null,
+                    "benefits": [
+                        {
+                            "name": "les formes stileto, ballerine",
+                            "text": "ou amande très longues",
+                            "subText": null,
+                            "price": "10&euro;"
+                        },
+                        {
+                            "name": "baby boomer, effet sirène",
+                            "text": "dégradé, marbre",
+                            "subText": "(pour les 10 doigts)",
+                            "price": "48&euro;"
+                        }
+                    ]
+                }
+            ],
+            "note": "Manucure comprise dans chacune des prestations ainsi qu'une déco simple (paillettes, ligne, strass, plusieurs coloris)."
+        },
+        {
+            "name": "La beauté du regard",
+            "prices": [
+                {
+                    "for": "",
+                    "benefits": [
+                        {
+                            "name": "Teinture cils",
+                            "text": null,
+                            "subText": null,
+                            "price": "20&euro;"
+                        },
+                        {
+                            "name": "Teinture sourcils",
+                            "text": null,
+                            "subText": null,
+                            "price": "20&euro;"
+                        },
+                        {
+                            "name": "Rehaussement de cils",
+                            "text": null,
+                            "subText": null,
+                            "price": "75&euro;"
+                        },
+                        {
+                            "name": "Browlift",
+                            "text": null,
+                            "subText": null,
+                            "price": "75&euro;"
+                        }
+                    ]
+                }
+            ],
+            "note": null
+        },
+        {
+            "name": "Les soins",
+            "prices": [
+                {
+                    "for": "Visage",
+                    "benefits": [
+                        {
+                            "name": "Soin Esthemax",
+                            "text": "au Quartz Rose",
+                            "subText": null,
+                            "price": "80&euro;"
+                        },
+                        {
+                            "name": "Soin <strong>Aquacare - Hydrafacial</strong>",
+                            "text": null,
+                            "subText": null,
+                            "price": "90&euro;"
+                        },
+                        {
+                            "name": "Cure 4 soins Aquacare",
+                            "text": null,
+                            "subText": null,
+                            "price": "320&euro;"
+                        },
+                        {
+                            "name": "Soin sur mesure",
+                            "text": "<strong>Hydrafacial + Esthemax</strong>",
+                            "subText": "(extraction aux ultrasons, hydra-derma, jet propulse et luminothérapie)",
+                            "price": "110&euro;"
+                        },
+                        {
+                            "name": "Soin <strong>Luxe anti-âge Or 24K</strong>",
+                            "text": null,
+                            "subText": "(spatule ultrasons, hydra-derma, radiofréquence, ultrasons, jet propulse, cryo et luminothérapie)",
+                            "price": "130&euro;"
+                        },
+                        {
+                            "name": "Cure 4 soins Luxe anti-âge Or 24K",
+                            "text": null,
+                            "subText": null,
+                            "price": "450&euro;"
+                        }
+                    ]
+                },
+                {
+                    "for": "Corps",
+                    "benefits": [
+                        {
+                            "name": "Gommage",
+                            "text": null,
+                            "subText": null,
+                            "price": "35&euro;"
+                        },
+                        {
+                            "name": "Soin dos purifiant",
+                            "text": null,
+                            "subText": null,
+                            "price": "50&euro;"
+                        },
+                        {
+                            "name": "Drainage",
+                            "text": null,
+                            "subText": null,
+                            "price": "40&euro;"
+                        },
+                        {
+                            "name": "Lifting Colombien",
+                            "text": null,
+                            "subText": null,
+                            "price": "75&euro;"
+                        },
+                        {
+                            "name": "Cryothérapie",
+                            "text": null,
+                            "subText": null,
+                            "price": "75&euro;"
+                        },
+                        {
+                            "name": "Modelage dos (30min)",
+                            "text": null,
+                            "subText": null,
+                            "price": "35&euro;"
+                        },
+                        {
+                            "name": "Modelage relaxant (1h)",
+                            "text": null,
+                            "subText": null,
+                            "price": "65&euro;"
+                        },
+                        {
+                            "name": "massage 5 continents",
+                            "text": null,
+                            "subText": null,
+                            "price": "90&euro;"
+                        }
+                    ]
+                }
+            ],
+            "note": null
+        }
+    ]
+}
